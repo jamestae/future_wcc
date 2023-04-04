@@ -12,3 +12,4 @@ collections:
     fields:
       - { label: "Chapter Title", name: "title", widget: "string" }
       - { label: "Date(TOC Order)", name: "date", widget: "datetime" }
+      - { label: "Thumbnail Image", name: "image", widget: "image" }
