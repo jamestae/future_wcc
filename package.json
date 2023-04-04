@@ -1,0 +1,24 @@
+{
+  "name": "future_wcc",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "eleventy --serve",
+    "build": "eleventy"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jamestae/future_wcc.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jamestae/future_wcc/issues"
+  },
+  "homepage": "https://github.com/jamestae/future_wcc#readme",
+  "devDependencies": {
+    "@11ty/eleventy": "github:11ty/eleventy"
+  }
+}
