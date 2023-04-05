@@ -17,3 +17,8 @@ layout: 'base.njk'
     <h1 class="start1 end13 largeText">To help people reach their potential by delivering the world’s best coaching experience at scale. </h1>
     <p class="start7 end13">By leading with accountability, prioritizing flexibility, and owning the research and planning required to design effective and achievable workout routines, we can partner with anyone to remove barriers, build sustainable habits, and achieve life-changing results.</p>
 </div>
+{% for item in contents %}
+  {% if item.type == "layout1" %}
+    <p>{{ item.string }}</p>
+  {% endif %}
+{% endfor %}
