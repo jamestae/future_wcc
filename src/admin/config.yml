@@ -13,12 +13,17 @@ collections:
       - { label: "Chapter Title", name: "title", widget: "string" }
       - { label: "Date(TOC Order)", name: "date", widget: "datetime" }
       - { label: "Thumbnail Image", name: "image", widget: "image" }
-      - label: "Content"
-        name: "content"
+      - label: "Chapter Content"
+        name: "contents"
         widget: "list"
         types:
-          - label: "Layout 1"
-            name: "layout1"
+          - label: "Large Text"
+            name: "largetext"
             widget: "object"
             fields:
-              - { label: "String", name: "string", widget:"string"}
+              - { label: "Enter Text", name: "string", widget: "string"}
+          - label: "Small Text"
+            name: "smalltext"
+            widget: "object"
+            fields:
+              - { label: "Enter text", name: "string", widget: "string" }

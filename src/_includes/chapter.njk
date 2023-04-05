@@ -18,7 +18,9 @@ layout: 'base.njk'
     <p class="start7 end13">By leading with accountability, prioritizing flexibility, and owning the research and planning required to design effective and achievable workout routines, we can partner with anyone to remove barriers, build sustainable habits, and achieve life-changing results.</p>
 </div>
 {% for item in contents %}
-  {% if item.type == "layout1" %}
-    <p>{{ item.string }}</p>
-  {% endif %}
+    {% if item.type == "largetext" %}
+        <h1>{{ item.string }}</h1>
+    {% elif item.type == "smalltext" %}
+        <p>{{ item.string }}</p>
+    {% endif %}
 {% endfor %}
