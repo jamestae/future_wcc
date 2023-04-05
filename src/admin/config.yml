@@ -11,7 +11,7 @@ collections:
     slug: "{{slug}}"
     fields:
       - { label: "Chapter Title", name: "title", widget: "string" }
-      - { label: "Date(TOC Order)", name: "date", widget: "datetime" }
+      - { name: "order", label: "Order", widget: "number" }
       - { label: "Thumbnail Image", name: "image", widget: "image" }
       - label: "Chapter Content"
         name: "contents"
@@ -27,3 +27,4 @@ collections:
             widget: "object"
             fields:
               - { label: "Enter text", name: "string", widget: "string" }
+    sort: [{ field: "order", numeric: true, direction: "asc" }]
