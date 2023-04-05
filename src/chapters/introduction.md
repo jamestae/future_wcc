@@ -7,4 +7,7 @@ contents:
     string: TEsting
   - type: layout1
     string: "123"
+content:
+  - type: layout1
+    string: another1
 ---
