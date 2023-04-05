@@ -2,8 +2,11 @@
     <p class="start7 end13">Table of Contents</p>
     {% for chapter in collections.chapter %}
         <div class="grid start1 end13 chapter">
-            <p class="start1 end7">{{ loop.index }}</p>
-            <h1 class="start7 end13">{{ chapter.data.title }}</h1>
+            <p class="row1 start1 end7">{{ loop.index }}</p>
+            <h1 class="row1 start7 end13 title"><a href="{{ chapter.url }}">{{ chapter.data.title }}</a></h1>
+            <div class="row1 start12 end13 thumbnail">
+                <img src="{{ chapter.data.image }}">
+            </div>
         </div>
     {% endfor %}
 </div>

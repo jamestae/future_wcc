@@ -13,3 +13,12 @@ collections:
       - { label: "Chapter Title", name: "title", widget: "string" }
       - { label: "Date(TOC Order)", name: "date", widget: "datetime" }
       - { label: "Thumbnail Image", name: "image", widget: "image" }
+      - label: "Content"
+        name: "content"
+        widget: "list"
+        types:
+          - label: "Layout 1"
+            name: "layout1"
+            widget: "object"
+            fields:
+              - { label: "String", name: "string", widget:"string"}

@@ -27,11 +27,16 @@ html {
 
 body {
     background-color: #E7E7E7;
-    color:black;
+    color:#181819;
+}
+
+a {
+    all: unset;
+    cursor: pointer;
 }
 
 h1 {
-    font-size: 12rem;
+    font-size: 10rem;
     line-height: 9rem;
     font-family: MessinaSans;
     font-weight: 300;
@@ -40,7 +45,7 @@ h1 {
 
 p {
     font-size: 4rem;
-    line-height: 4rem;
+    line-height: 4.5rem;
     font-family: MessinaSans;
     font-weight: 400;
     letter-spacing: -.04em;
@@ -50,6 +55,10 @@ p {
     display: inline-grid;
     grid-template-columns: repeat(12, 1fr);
     gap: 1rem;
+}
+
+.row1 {
+    grid-row-start: 1;
 }
 
 .start1 {
@@ -147,6 +156,8 @@ p {
 .nav {
     padding: 1rem;
     width: 100%;
+    z-index: 10;
+    position: relative;
     /* background-color: red; */
 }
 
@@ -159,7 +170,7 @@ p {
 }
 
 .contents {
-    padding: 1rem 1rem 0 1rem;
+    padding: 18rem 1rem 0 1rem;
     width: 100%;
 }
 
@@ -168,7 +179,34 @@ p {
 }
 
 .chapter {
-    border-top: .2rem solid black;
+    border-top: .2rem solid #181819;
     padding-top: 1rem;
     /* min-height: 18rem; */
+}
+
+.thumbnail {
+    height: 18rem;
+    z-index: -1;
+    opacity: 0;
+}
+
+.thumbnail img {
+    height: 100%;
+}
+
+.contents .title:hover {
+    color: white;
+    mix-blend-mode: exclusion;
+}
+
+.contents .title:hover + .thumbnail{
+    opacity: 1;
+}
+
+.largeText {
+    border-top: .2rem solid #181819;
+}
+
+.largeImage img {
+    width: 100%;
 }
