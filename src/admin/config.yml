@@ -17,6 +17,11 @@ collections:
         name: "contents"
         widget: "list"
         types:
+          - label: "Section Title"
+            name: "sectiontitle"
+            widget: "object"
+            fields:
+              - { label: "Enter section title", name: "string", widget: "string" }
           - label: "Large Text"
             name: "largetext"
             widget: "object"
@@ -27,3 +32,8 @@ collections:
             widget: "object"
             fields:
               - { label: "Enter text", name: "string", widget: "string" }
+          - label: "Large Image"
+            name: "largeimage"
+            widget: "object"
+            fields:
+              - { label: "Large Image", name: "image", widget: "image" }

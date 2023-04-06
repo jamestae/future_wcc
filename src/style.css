@@ -157,7 +157,8 @@ p {
     padding: 1rem;
     width: 100%;
     z-index: 10;
-    position: relative;
+    /* position: sticky;
+    top: 0; */
     /* background-color: red; */
 }
 
@@ -188,6 +189,7 @@ p {
     height: 18rem;
     z-index: -1;
     opacity: 0;
+    position: absolute;
 }
 
 .thumbnail img {
@@ -203,8 +205,15 @@ p {
     opacity: 1;
 }
 
+.sectiontitle {
+    /* display: inline-block;
+    position: sticky;
+    top: 23.8rem; */
+}
+
 .largeText {
-    border-top: .2rem solid #181819;
+    /* border-top: .2rem solid #181819; */
+    margin-bottom: 9rem;
 }
 
 .largeImage img {
