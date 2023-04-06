@@ -17,7 +17,7 @@ async function imageShortcode(src, alt, sizes) {
   
     let srcset = metadata.jpeg.map((entry) => `${entry.url} ${entry.width}w`).join(", ");
   
-    return `<img src="${metadata.jpeg[0].url}" srcset="${srcset}" ${Object.keys(imageAttributes).map(key => `${key}="${imageAttributes[key]}"`).join(" ")}>`;
+    return `<img src="${src}" srcset="${srcset}" ${Object.keys(imageAttributes).map(key => `${key}="${imageAttributes[key]}"`).join(" ")}>`;
   }
 
 module.exports = function(eleventyConfig) {
