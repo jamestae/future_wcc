@@ -4,20 +4,22 @@ layout: 'base.njk'
 
 {% include 'nav.njk' %}
 
-{{ content | safe }}
+<div class="headerimage">
+    <img src="{{ image }}">
+</div>
 
 <div class="grid contents">
     {% for item in contents %}
         {% if item.type == "sectiontitle" %}
             <p class="start1 end4 sectiontitle">{{ item.string }}</p>
         {% elif item.type == "largetext" %}
-            <div class="largeText start4 end13">
+            <div class="largeText start4 end12">
                 <h1>{{ item.string }}</h1>
             </div>
         {% elif item.type == "smalltext" %}
-            <p class="start4 end10">{{ item.string }}</p>
+            <p class="start5 end9 smallText">{{ item.string }}</p>
         {% elif item.type == "largeimage" %}
-            <div class="start4 end10 largeImage">
+            <div class="start6 end8 largeImage">
                 {% image item.image, "Alt text", "(min-width: 600px) 50vw, 100vw" %}
             </div>
         {% endif %}
