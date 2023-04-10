@@ -26,7 +26,7 @@ collections:
             name: "largetext"
             widget: "object"
             fields:
-              - { label: "Enter Text", name: "string", widget: "string"}
+              - { label: "Enter Text", name: "string", widget: "markdown"}
           - label: "Small Text"
             name: "smalltext"
             widget: "object"
