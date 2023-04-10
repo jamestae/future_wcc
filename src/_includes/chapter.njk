@@ -11,13 +11,11 @@ layout: 'base.njk'
 <div class="grid contents">
     {% for item in contents %}
         {% if item.type == "sectiontitle" %}
-            <p class="start1 end4 sectiontitle">{{ item.string }}</p>
+            <div class="start1 end3 sectiontitle">{{ item.string | markdown | safe }}</div>
         {% elif item.type == "largetext" %}
-            <div class="largeText start4 end12">
-                {{ item.string | markdown | safe }}
-            </div>
+            <div class="largeText start4 end13">{{ item.string | markdown | safe }}</div>
         {% elif item.type == "smalltext" %}
-            <p class="start5 end9 smallText">{{ item.string }}</p>
+            <div class="start5 end9 smallText">{{ item.string | markdown | safe }}</div>
         {% elif item.type == "largeimage" %}
             <div class="start6 end8 largeImage">
                 {% image item.image, "Alt text", "(min-width: 600px) 50vw, 100vw" %}

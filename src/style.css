@@ -10,6 +10,12 @@
     font-weight: 300;
 }
 
+@font-face {
+    font-family: JHATimes;
+    src: url(assets/fonts/Times\ Now\ SemiLight\ Italic.otf);
+    font-weight: 400;
+}
+
 *, *::before, *::after {
     box-sizing: border-box;
   }
@@ -26,8 +32,8 @@ html {
 }
 
 body {
-    background-color: #E7E7E7;
-    color:#181819;
+    background-color: white;
+    color: black;
 }
 
 a {
@@ -51,16 +57,25 @@ p {
     letter-spacing: -.04em;
 }
 
-strong{
+strong {
     font-weight: inherit;
 }
 
-em{
-    font-style: italic;
+h1 em {
+    font-family: JHATimes;
+    font-weight: 400;
+    font-style: normal;
+    word-spacing: -.04em;
+    font-size: 5.4rem;
+    letter-spacing: -.03em;
+}
+
+p em {
     font-family: 'Times New Roman', Times, serif;
     font-weight: 400;
-    font-size: 5.4rem;
-    letter-spacing: -.04em;
+    font-style: italic;
+    font-size: 2.6rem;
+    letter-spacing: -.02em;
 }
 
 .grid {
@@ -176,11 +191,11 @@ em{
 }
 
 .navItem {
-    /* background-color: blue; */
+
 }
 
 .navItem p {
-    line-height: 2.8rem;
+    line-height: 2.4rem;
 }
 
 .contents {
@@ -234,10 +249,8 @@ em{
     object-fit: cover;
 }
 
-.sectiontitle {
-    /* display: inline-block;
-    position: sticky;
-    top: 23.8rem; */
+.sectiontitle p {
+    line-height: 2.4rem;
 }
 
 .largeText {
@@ -256,4 +269,5 @@ em{
     width: 100%;
     object-fit: contain;
     margin-bottom: 9rem;
+    border-radius: 2rem;
 }
