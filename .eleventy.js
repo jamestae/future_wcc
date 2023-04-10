@@ -1,4 +1,5 @@
 const Image = require("@11ty/eleventy-img");
+const markdown = require('./markdown.js');
 
 async function imageShortcode(src, alt, sizes) {
     let metadata = await Image("src/" + src, {
@@ -26,6 +27,9 @@ module.exports = function(eleventyConfig) {
     eleventyConfig.addPassthroughCopy('./src/assets');
     eleventyConfig.addPassthroughCopy('./src/admin');
     eleventyConfig.addNunjucksAsyncShortcode("image", imageShortcode);
+    eleventyConfig.addFilter('markdown', function(value) {
+      return markdown.render(value);
+    });
 
     return {
         dir: {

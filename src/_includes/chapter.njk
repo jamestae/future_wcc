@@ -14,7 +14,7 @@ layout: 'base.njk'
             <p class="start1 end4 sectiontitle">{{ item.string }}</p>
         {% elif item.type == "largetext" %}
             <div class="largeText start4 end12">
-                <h1>{{ item.markdown }}</h1>
+                {{ item.string | markdown | safe }}
             </div>
         {% elif item.type == "smalltext" %}
             <p class="start5 end9 smallText">{{ item.string }}</p>

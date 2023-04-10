@@ -31,7 +31,7 @@ collections:
             name: "smalltext"
             widget: "object"
             fields:
-              - { label: "Enter text", name: "string", widget: "string" }
+              - { label: "Enter text", name: "string", widget: "markdown" }
           - label: "Large Image"
             name: "largeimage"
             widget: "object"

@@ -7,10 +7,7 @@ contents:
   - type: sectiontitle
     string: Our Vision
   - type: largetext
-    markdown: We envision a *healthier,* happier world in which everyone benefits
-      from personalized coaching.
-    string: We envision a healthier, happier world in which everyone benefits from
-      personalized coaching.
+    string: "# We envision a *healthier, happier* world in which everyone benefits from *personalized coaching.*"
   - type: largeimage
     image: /assets/images/bg5.jpg
   - type: smalltext
