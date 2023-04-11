@@ -23,7 +23,7 @@ layout: 'base.njk'
                         <div class="start5 end9 smallText">{{ subitem.string | markdown | safe }}</div>
                     {% elif subitem.type == "largeimage" %}
                         <div class="start6 end8 largeImage">
-                            {% image item.image, "Alt text", "(min-width: 600px) 50vw, 100vw" %}
+                            {% image subitem.image, "Alt text", "(min-width: 600px) 50vw, 100vw" %}
                         </div>
                     {% endif %}
                 {% endfor %}
