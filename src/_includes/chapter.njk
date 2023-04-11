@@ -9,17 +9,21 @@ layout: 'base.njk'
 </div>
 
 <div class="grid contents">
-    {% for item in contents %}
-        {% if item.type == "sectiontitle" %}
-            <div class="start1 end3 sectiontitle">{{ item.string | markdown | safe }}</div>
-        {% elif item.type == "largetext" %}
-            <div class="largeText start4 end13">{{ item.string | markdown | safe }}</div>
-        {% elif item.type == "smalltext" %}
-            <div class="start5 end9 smallText">{{ item.string | markdown | safe }}</div>
-        {% elif item.type == "largeimage" %}
-            <div class="start6 end8 largeImage">
-                {% image item.image, "Alt text", "(min-width: 600px) 50vw, 100vw" %}
-            </div>
+    {% for section in contents %}
+        {% if section.type == "section" %}
+            {% for item in section.items %}
+                {% if item.type == "sectiontitle" %}
+                    <div class="start1 end3 sectiontitle">{{ item.string | markdown | safe }}</div>
+                {% elif item.type == "largetext" %}
+                    <div class="largeText start4 end13">{{ item.string | markdown | safe }}</div>
+                {% elif item.type == "smalltext" %}
+                    <div class="start5 end9 smallText">{{ item.string | markdown | safe }}</div>
+                {% elif item.type == "largeimage" %}
+                    <div class="start6 end8 largeImage">
+                        {% image item.image, "Alt text", "(min-width: 600px) 50vw, 100vw" %}
+                    </div>
+                {% endif %}
+            {% endfor %}
         {% endif %}
     {% endfor %}
 </div>
