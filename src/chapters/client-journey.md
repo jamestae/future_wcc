@@ -7,9 +7,8 @@ contents:
   - type: section
     string: |-
       Section 1
-
       *This is a test*
     sectioncontent:
-      - type: smalltext
-        string: This is a test
+      - type: largetext
+        string: "# This is a test"
 ---
