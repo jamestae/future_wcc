@@ -33,4 +33,15 @@ contents:
           the research and planning required to design effective and achievable
           workout routines, we can partner with anyone to remove barriers, build
           sustainable habits, and achieve life-changing results.
+  - type: section
+    string: Our Promise
+    sectioncontent:
+      - type: largetext
+        string: "# *A coach* that ensures you have the *accountability, partnership, and
+          support* you need to unlock the life-changing benefits of personalized
+          programming."
+      - type: smalltext
+        string: The Future Coach is dedicated to remaining *in sync* with each client;
+          they are *proactive, resourceful, and seek feedback* to ensure that
+          each client always has what they need to achieve success.
 ---
