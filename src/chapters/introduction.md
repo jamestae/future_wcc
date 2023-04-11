@@ -18,6 +18,8 @@ contents:
           the globe. Within these partnerships, people will find the expertise
           and support they need to *make lasting improvements to their health
           and well-being.*
+  - type: fbimage
+    image: /assets/images/4N3A5570.jpg
   - type: section
     string: Our Mission
     sectioncontent:
@@ -31,6 +33,4 @@ contents:
           the research and planning required to design effective and achievable
           workout routines, we can partner with anyone to remove barriers, build
           sustainable habits, and achieve life-changing results.
-  - type: fbimage
-    image: /assets/images/4N3A5570.jpg
 ---
