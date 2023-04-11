@@ -17,32 +17,27 @@ collections:
         name: "contents"
         widget: "list"
         types:
-          - label: "Section Title"
-            name: "sectiontitle"
+          - label: "Section"
+            name: "section"
             widget: "object"
             fields:
-              - { label: "Enter section title", name: "string", widget: "markdown" }
-              - label: "Test"
-                name: "test"
+              - { label: "Section Title", name: "string", widget: "markdown" }
+              - label: "Section Content"
+                name: "sectioncontent"
                 widget: "list"
                 types:
-                  - label: "Section Title"
-                    name: "sectiontitle"
+                  - label: "Large Text"
+                    name: "largetext"
                     widget: "object"
                     fields:
-                      - { label: "Enter section title", name: "string", widget: "markdown" }
-          - label: "Large Text"
-            name: "largetext"
-            widget: "object"
-            fields:
-              - { label: "Enter Text", name: "string", widget: "markdown"}
-          - label: "Small Text"
-            name: "smalltext"
-            widget: "object"
-            fields:
-              - { label: "Enter text", name: "string", widget: "markdown" }
-          - label: "Large Image"
-            name: "largeimage"
-            widget: "object"
-            fields:
-              - { label: "Large Image", name: "image", widget: "image" }
+                      - { label: "Enter Text", name: "string", widget: "markdown"}
+                  - label: "Small Text"
+                    name: "smalltext"
+                    widget: "object"
+                    fields:
+                     - { label: "Enter text", name: "string", widget: "markdown" }
+                 - label: "Large Image"
+                   name: "largeimage"
+                   widget: "object"
+                   fields:
+                     - { label: "Large Image", name: "image", widget: "image" }
