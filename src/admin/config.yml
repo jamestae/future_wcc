@@ -17,23 +17,27 @@ collections:
         name: "contents"
         widget: "list"
         types:
-          - label: "Section Title"
-            name: "sectiontitle"
-            widget: "object"
-            fields:
-              - { label: "Enter section title", name: "string", widget: "markdown" }
-          - label: "Large Text"
-            name: "largetext"
-            widget: "object"
-            fields:
-              - { label: "Enter Text", name: "string", widget: "markdown"}
-          - label: "Small Text"
-            name: "smalltext"
-            widget: "object"
-            fields:
+          - label: "Section"
+            name: "section"
+            widget: "list"
+            types:
+              - label: "Section Title"
+                name: "sectiontitle"
+                widget: "object"
+                fields:
+                  - { label: "Enter section title", name: "string", widget: "markdown" }
+              - label: "Large Text"
+                name: "largetext"
+                widget: "object"
+                fields:
+                  - { label: "Enter Text", name: "string", widget: "markdown"}
+              - label: "Small Text"
+                name: "smalltext"
+                widget: "object"
+                fields:
               - { label: "Enter text", name: "string", widget: "markdown" }
-          - label: "Large Image"
-            name: "largeimage"
-            widget: "object"
-            fields:
-              - { label: "Large Image", name: "image", widget: "image" }
+              - label: "Large Image"
+                name: "largeimage"
+                widget: "object"
+                fields:
+                  - { label: "Large Image", name: "image", widget: "image" }
