@@ -242,6 +242,17 @@ p em {
     height: 100%;
 }
 
+.fullbleedImage {
+    margin: 0 -1rem 0 -1rem;
+    max-height: 100vh;
+    overflow: hidden;
+}
+
+.fullbleedImage img {
+    width: 100%;
+    object-fit: cover;
+}
+
 .contents .title:hover {
     color: white;
     mix-blend-mode: exclusion;
@@ -267,14 +278,9 @@ p em {
     object-fit: cover;
 }
 
-.section {
+.section + .section {
     border-top: 2px solid black;
     padding-top: 9rem;
-}
-
-.section:first-of-type {
-    border-top: 0;
-    padding-top: 0;
 }
 
 .sectiontitle {

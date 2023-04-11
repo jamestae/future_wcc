@@ -28,12 +28,14 @@ layout: 'base.njk'
                         </div>
                     {% endif %}
                 {% endfor %}
-        {% else %}
-            {% if item.type == "fbimage" %}
-            {% endif %}
         {% endif %}
         {% if loop.last %}
             </div>
+        {% endif %}
+        {% if item.type == "fbimage" %}
+                <div class="start1 end13 fullbleedImage">
+                    {% image item.image, "Alt text", "(min-width: 600px) 50vw, 100vw" %}
+                </div>
         {% endif %}
     {% endfor %}
 </div>
