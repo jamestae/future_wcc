@@ -15,18 +15,20 @@ layout: 'base.njk'
                 </div>
             {% endif %}
             <div class="start1 end13 grid section">
-                <div class="start1 end3 sectiontitle">{{ item.section_title.string | markdown | safe }}</div>
-                {% for section_content in item.section_content %}
-                    {% if section_content.type == "largetext" %}
-                        <div class="largeText start4 end13">{{ section_content.largetext.string | markdown | safe }}</div>
-                    {% elif section_content.type == "smalltext" %}
-                        <div class="start5 end9 smallText">{{ section_content.smalltext.string | markdown | safe }}</div>
-                    {% elif section_content.type == "largeimage" %}
-                        <div class="start6 end8 largeImage">
-                            {% image section_content.largeimage.image, "Alt text", "(min-width: 600px) 50vw, 100vw" %}
-                        </div>
-                    {% endif %}
+                <div class="start1 end3 sectiontitle">{{ item.string | markdown | safe }}</div>
+                {% for subitem in item.sectioncontent %}
+                    {{ subitem.string | markdown | safe }}
                 {% endfor %}
+        {% else %}
+            {% if item.type == "largetext" %}
+                <div class="largeText start4 end13">{{ item.string | markdown | safe }}</div>
+            {% elif item.type == "smalltext" %}
+                <div class="start5 end9 smallText">{{ item.string | markdown | safe }}</div>
+            {% elif item.type == "largeimage" %}
+                <div class="start6 end8 largeImage">
+                    {% image item.image, "Alt text", "(min-width: 600px) 50vw, 100vw" %}
+                </div>
+            {% endif %}
         {% endif %}
         {% if loop.last %}
             </div>
