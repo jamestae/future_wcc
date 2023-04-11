@@ -5,7 +5,7 @@ order: 1
 image: /assets/images/yellowheader.jpg
 contents:
   - type: sectiontitle
-    string: Our Vision
+    string: "Our Vision"
   - type: largetext
     string: "# We envision a *healthier, happier* world in which everyone benefits from *personalized coaching.*"
   - type: largeimage

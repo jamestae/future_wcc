@@ -249,6 +249,16 @@ p em {
     object-fit: cover;
 }
 
+.section {
+    border-top: 2px solid black;
+    padding-top: 9rem;
+}
+
+.section:first-of-type {
+    border-top: 0;
+    padding-top: 0;
+}
+
 .sectiontitle p {
     line-height: 2.4rem;
 }
