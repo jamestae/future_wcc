@@ -28,7 +28,7 @@ contents:
       workout routines, we can partner with anyone to remove barriers, build
       sustainable habits, and achieve life-changing results.
   - type: sectiontitle
-    string: Our Promise:\n*The World’s Best Coaching Experience*
+    string: "# Our Promise:\\n*The World’s Best Coaching Experience*"
   - type: largetext
     string: "# *A coach* that ensures you have the *accountability, partnership, and
       support* you need to unlock the life-changing benefits of personalized
