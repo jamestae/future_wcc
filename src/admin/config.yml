@@ -35,9 +35,9 @@ collections:
                     name: "smalltext"
                     widget: "object"
                     fields:
-                     - { label: "Enter text", name: "string", widget: "markdown" }
-                 - label: "Large Image"
-                   name: "largeimage"
-                   widget: "object"
-                   fields:
-                     - { label: "Large Image", name: "image", widget: "image" }
+                      - { label: "Enter text", name: "string", widget: "markdown" }
+                  - label: "Large Image"
+                    name: "largeimage"
+                    widget: "object"
+                    fields:
+                      - { label: "Large Image", name: "image", widget: "image" }
