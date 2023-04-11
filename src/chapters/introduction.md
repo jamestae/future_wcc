@@ -18,4 +18,6 @@ contents:
           the globe. Within these partnerships, people will find the expertise
           and support they need to *make lasting improvements to their health
           and well-being.*
+  - type: section
+    string: Our Mission
 ---
