@@ -6,8 +6,7 @@ image: /assets/images/greenheader.jpg
 contents:
   - type: section
     string: |-
-      Section 1
-
+      Section 1\
       *This is a test*
     sectioncontent:
       - type: smalltext
