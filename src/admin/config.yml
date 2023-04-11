@@ -21,7 +21,7 @@ collections:
             name: "sectiontitle"
             widget: "object"
             fields:
-              - { label: "Enter section title", name: "string", widget: "markdown" }
+              - { label: "Enter section title", name: "string", widget: "string" }
           - label: "Large Text"
             name: "largetext"
             widget: "object"
