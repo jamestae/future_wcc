@@ -29,6 +29,7 @@
 
 html {
     font-size: 10px;
+    scroll-behavior: smooth;
 }
 
 body {
@@ -82,6 +83,7 @@ p em {
     display: inline-grid;
     grid-template-columns: repeat(12, 1fr);
     gap: 1rem;
+    row-gap: 0;
 }
 
 .row1 {
@@ -198,6 +200,22 @@ p em {
     line-height: 2.4rem;
 }
 
+.subnav {
+    position: fixed;
+    top: calc(50vh + 1rem);
+    left: 1rem;
+    z-index: 10;
+}
+
+.subnav p {
+    line-height: 2.4rem;
+    opacity: .5;
+}
+
+.subnav p:hover {
+    opacity: 1;
+}
+
 .contents {
     padding: 1rem 1rem 0 1rem;
     width: 100%;
@@ -257,6 +275,12 @@ p em {
 .section:first-of-type {
     border-top: 0;
     padding-top: 0;
+}
+
+.sectiontitle {
+    /* position: sticky;
+    top: calc(50vh + 1rem);
+    background-color: white; */
 }
 
 .sectiontitle p {

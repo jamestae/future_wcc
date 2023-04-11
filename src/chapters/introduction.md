@@ -5,7 +5,7 @@ order: 1
 image: /assets/images/yellowheader.jpg
 contents:
   - type: section
-    string: Our Vision
+    string: "Our Vision"
     sectioncontent:
       - type: largetext
         string: "# We envision a *healthier, happier* world in which everyone benefits
@@ -19,5 +19,13 @@ contents:
           and support they need to *make lasting improvements to their health
           and well-being.*
   - type: section
-    string: Our Mission
+    string: "Our Mission"
+    sectioncontent:
+      - type: largetext
+        string: "# To help people reach their potential by delivering the *world’s best coaching experience at scale.*"
+      - type: largeimage
+        image: /assets/images/bg5.jpg
+      - type: smalltext
+        string: By leading with *accountability*, prioritizing *flexibility,* and owning the research and planning required to design effective and achievable workout routines, we can partner with anyone to remove barriers, build sustainable habits, and achieve life-changing results.
+
 ---

@@ -41,3 +41,6 @@ collections:
                     widget: "object"
                     fields:
                       - { label: "Large Image", name: "image", widget: "image" }
+          - label: "Full Bleed Image"
+            name: "fbimage"
+            widget: "image"

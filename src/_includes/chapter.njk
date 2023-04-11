@@ -15,6 +15,7 @@ layout: 'base.njk'
                 </div>
             {% endif %}
             <div class="start1 end13 grid section">
+                <div class="start1 end13" id="{{ item.string | replace(" ", "-") | replace("#-", "") | lower}}"></div>
                 <div class="start1 end3 sectiontitle">{{ item.string | markdown | safe }}</div>
                 {% for subitem in item.sectioncontent %}
                     {% if subitem.type == "largetext" %}
@@ -34,6 +35,12 @@ layout: 'base.njk'
         {% if loop.last %}
             </div>
         {% endif %}
+    {% endfor %}
+</div>
+
+<div class="subnav">
+    {% for item in contents %}
+        <a href="#{{ item.string | replace(" ", "-") | replace("#-", "") | lower}}"><p>{{ item.string | replace("# ", "")}}</p></a>
     {% endfor %}
 </div>
 

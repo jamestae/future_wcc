@@ -28,7 +28,8 @@ module.exports = function(eleventyConfig) {
     eleventyConfig.addPassthroughCopy('./src/admin');
     eleventyConfig.addNunjucksAsyncShortcode("image", imageShortcode);
     eleventyConfig.addFilter('markdown', function(value) {
-      return markdown.render(value).replace(/\n/g, '<br>');
+      return markdown.render(value);
+      // return markdown.render(value).replace(/\n/g, '<br>');
     });
 
     return {
