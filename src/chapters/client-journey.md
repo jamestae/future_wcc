@@ -7,6 +7,7 @@ contents:
   - type: section
     string: |-
       Section 1
+
       *This is a test*
     sectioncontent:
       - type: largetext
