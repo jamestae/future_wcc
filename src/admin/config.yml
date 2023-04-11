@@ -19,7 +19,7 @@ collections:
         types:
           - label: "Section"
             name: "section"
-            widget: "object"
+            widget: "list"
             fields:
               - { label: "Section Title", name: "sectiontitle", widget: "string" }
               - { label: "Large Text", name: "largetext", widget: "markdown" }
