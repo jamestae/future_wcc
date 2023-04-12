@@ -13,7 +13,7 @@ layout: 'base.njk'
         {% if item.type == "section" %}
             <div class="start1 end13 grid section">
                 <div class="start1 end13" id="{{ item.string | replace(" ", "-") | replace("#-", "") | lower}}"></div>
-                <div class="start1 end3 sectiontitle"></div>
+                <div class="start1 end3 sectiontitle">{{ item.string | markdown | safe }}</div>
                 {% for subitem in item.sectioncontent %}
                     {% if subitem.type == "largetext" %}
                         <div class="largeText start4 end13">{{ subitem.string | markdown | safe }}</div>
@@ -34,10 +34,10 @@ layout: 'base.njk'
     {% endfor %}
 </div>
 
-<div class="subnav">
+{# <div class="subnav">
     {% for item in contents %}
         <a href="#{{ item.string | replace(" ", "-") | replace("#-", "") | lower}}"><p>{{ item.string | replace("# ", "")}}</p></a>
     {% endfor %}
-</div>
+</div> #}
 
 
