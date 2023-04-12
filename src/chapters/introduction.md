@@ -44,4 +44,14 @@ contents:
         string: The Future Coach is dedicated to remaining *in sync* with each client;
           they are *proactive, resourceful, and seek feedback* to ensure that
           each client always has what they need to achieve success.
+  - type: section
+    string: Our Superpower
+    sectioncontent:
+      - type: largetext
+        string: "# The Future Coach is a *master of their craft.*"
+      - type: smalltext
+        string: They are an *expert programmer, a dedicated and empathetic partner,* and
+          they actively go above and beyond to deliver value. For each client,
+          *they build a personalized path* that incorporates Future’s innovative
+          tools to enhance the experience at *every stage.*
 ---
