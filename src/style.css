@@ -340,7 +340,11 @@ p em {
 }
 
 @media (max-width: 480px) {
-    .start2, .start3, .start4, .start5, .start6 {
-    grid-column-start: 1;
+    .start2, .start3, .start4, .start5, .start6, .start7, .start8, .start9, .start10, .start11, .start12 {
+        grid-column-start: 1;
+    }
+
+    .end2, .end3, .end4, .end5, .end6, .end7, .end8, .end9, .end10, .end11, .end12, .end13 {
+        grid-column-end: 13;
     }
   }
