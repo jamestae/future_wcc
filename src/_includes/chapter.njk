@@ -30,7 +30,7 @@ layout: 'base.njk'
                         <div class="largeText start10 end13">{{ subitem.string | markdown | safe }}</div>
                         {% endif %}
                     {% elif subitem.type == "video" %}
-<iframe width="560" height="315" src="https://www.youtube.com/embed/P2RqCvImrLg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>                    {% elif subitem.type == "bodytext" %}
+<iframe width="560" height="315" src="{{ subitem.string }}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>                    {% elif subitem.type == "bodytext" %}
                         {% if subitem.align == "center" %}
                         <div class="start5 end9 bodytext">{{ subitem.string | markdown | safe }}</div>
                         {% elif subitem.align == "left" %}
