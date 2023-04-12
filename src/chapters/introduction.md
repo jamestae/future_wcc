@@ -54,4 +54,22 @@ contents:
           they actively go above and beyond to deliver value. For each client,
           *they build a personalized path* that incorporates Future’s innovative
           tools to enhance the experience at *every stage.*
+      - type: largetext
+        string: "# The Future Coach"
+      - type: smalltext
+        string: >-
+          1. Understands that the best workout for a client is the one they will
+          do
+
+          2. Consistently demonstrates remarkable value to each client, at scale 
+
+          3. Intimately understands each client’s definition of success
+
+          4. Commits to progress within each partnership no matter the circumstance
+
+          5. Remains focused and positive in the face of adversity
+
+          6. Is dedicated to their own learning & development 
+
+          7. Innovates and refuses to be blocked
 ---
