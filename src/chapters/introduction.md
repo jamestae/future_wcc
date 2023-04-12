@@ -33,7 +33,7 @@ contents:
           coaching experience at scale.*"
         align: left
       - type: video
-        string: https://youtu.be/P2RqCvImrLg
+        string: P2RqCvImrLg
       - type: inlineimage
         image: /assets/images/bg5.jpg
         align: left

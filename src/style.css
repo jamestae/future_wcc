@@ -338,3 +338,9 @@ p em {
     margin-bottom: 9rem;
     border-radius: 2rem;
 }
+
+@media (max-width: 480px) {
+    .start2, .start3, .start4, .start5, .start6 {
+    grid-column-start: 1;
+    }
+  }
