@@ -11,12 +11,9 @@ layout: 'base.njk'
 <div class="grid contents">
     {% for item in contents %}
         {% if item.type == "section" %}
-            {% if loop.index > 1 %}
-                </div>
-            {% endif %}
             <div class="start1 end13 grid section">
                 <div class="start1 end13" id="{{ item.string | replace(" ", "-") | replace("#-", "") | lower}}"></div>
-                <div class="start1 end3 sectiontitle">{{ item.string | markdown | safe }}</div>
+                <div class="start1 end3 sectiontitle"></div>
                 {% for subitem in item.sectioncontent %}
                     {% if subitem.type == "largetext" %}
                         <div class="largeText start4 end13">{{ subitem.string | markdown | safe }}</div>
@@ -28,8 +25,10 @@ layout: 'base.njk'
                         </div>
                     {% endif %}
                 {% endfor %}
-        {% endif %}
-        {% if loop.last %}
+                </div>
+        {% elif item.type == "fbimage" %}
+            <div class="start1 end13 fullbleedImage">
+                {% image item.image, "Alt text", "(min-width: 600px) 50vw, 100vw" %}
             </div>
         {% endif %}
     {% endfor %}
