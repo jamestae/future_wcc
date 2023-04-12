@@ -348,11 +348,4 @@ p em {
         grid-column-end: 13;
     }
 
-    h1 {
-        font-size: 2.4rem;
-        line-height: 3rem;
-        font-family: MessinaSans;
-        font-weight: 400;
-        letter-spacing: -.04em;
-    }
   }
