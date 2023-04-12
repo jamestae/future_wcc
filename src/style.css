@@ -347,4 +347,12 @@ p em {
     .end2, .end3, .end4, .end5, .end6, .end7, .end8, .end9, .end10, .end11, .end12, .end13 {
         grid-column-end: 13;
     }
+
+    h1 {
+        font-size: 2.4rem;
+        line-height: 3rem;
+        font-family: MessinaSans;
+        font-weight: 400;
+        letter-spacing: -.04em;
+    }
   }
