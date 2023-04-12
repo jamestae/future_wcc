@@ -13,16 +13,45 @@ layout: 'base.njk'
         {% if item.type == "section" %}
             <div class="start1 end13 grid section">
                 <div class="start1 end13" id="{{ item.string | replace(" ", "-") | replace("#-", "") | lower}}"></div>
+                {% if item.align == "center" %}
+                <div class="start5 end9 sectiontitle">{{ item.string | markdown | safe }}</div>
+                {% elif item.align == "left" %}
                 <div class="start1 end3 sectiontitle">{{ item.string | markdown | safe }}</div>
+                {% elif item.align == "right" %}
+                <div class="start10 end13 sectiontitle">{{ item.string | markdown | safe }}</div>
+                {% endif %}
                 {% for subitem in item.sectioncontent %}
                     {% if subitem.type == "largetext" %}
+                        {% if subitem.align == "center" %}
                         <div class="largeText start4 end13">{{ subitem.string | markdown | safe }}</div>
-                    {% elif subitem.type == "smalltext" %}
-                        <div class="start5 end9 smallText">{{ subitem.string | markdown | safe }}</div>
-                    {% elif subitem.type == "largeimage" %}
+                        {% elif subitem.align == "left" %}
+                        <div class="largeText start1 end7 noindent">{{ subitem.string | markdown | safe }}</div>
+                        {% elif subitem.align == "right" %}
+                        <div class="largeText start10 end13">{{ subitem.string | markdown | safe }}</div>
+                        {% endif %}
+                    {% elif subitem.type == "video" %}
+<iframe width="560" height="315" src="https://www.youtube.com/embed/P2RqCvImrLg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>                    {% elif subitem.type == "bodytext" %}
+                        {% if subitem.align == "center" %}
+                        <div class="start5 end9 bodytext">{{ subitem.string | markdown | safe }}</div>
+                        {% elif subitem.align == "left" %}
+                        <div class="start1 end5 bodytext">{{ subitem.string | markdown | safe }}</div>
+                        {% elif subitem.align == "right" %}
+                        <div class="start8 end12 alignend bodytext">{{ subitem.string | markdown | safe }}</div>
+                        {% endif %}
+                    {% elif subitem.type == "inlineimage" %}
+                        {% if subitem.align == "center" %}
                         <div class="start6 end8 largeImage">
                             {% image subitem.image, "Alt text", "(min-width: 600px) 50vw, 100vw" %}
                         </div>
+                        {% elif subitem.align == "left" %}
+                        <div class="start3 end5 largeImage">
+                            {% image subitem.image, "Alt text", "(min-width: 600px) 50vw, 100vw" %}
+                        </div>
+                        {% elif subitem.align == "right" %}
+                        <div class="start9 end13 largeImage">
+                            {% image subitem.image, "Alt text", "(min-width: 600px) 50vw, 100vw" %}
+                        </div>
+                        {% endif %}
                     {% endif %}
                 {% endfor %}
                 </div>

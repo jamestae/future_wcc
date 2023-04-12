@@ -31,16 +31,24 @@ collections:
                     widget: "object"
                     fields:
                       - { label: "Enter Text", name: "string", widget: "markdown"}
-                  - label: "Small Text"
-                    name: "smalltext"
+                  - label: "Body Text"
+                    name: "bodytext"
                     widget: "object"
                     fields:
                       - { label: "Enter text", name: "string", widget: "markdown" }
-                  - label: "Large Image"
-                    name: "largeimage"
+                      - label: "Align Content"
+                        name: "align"
+                        widget: "select"
+                        options: ["left", "center", "right"]
+                  - label: "Image"
+                    name: "inlineimage"
                     widget: "object"
                     fields:
-                      - { label: "Large Image", name: "image", widget: "image" }
+                      - { label: "Image", name: "image", widget: "image" }
+                      - label: "Align Content"
+                        name: "align"
+                        widget: "select"
+                        options: ["left", "center", "right"]
           - label: "Full Bleed Image"
             name: "fbimage"
             widget: "object"
