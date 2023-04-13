@@ -13,10 +13,10 @@ contents:
           coaches through our service expectations and best practices."
         align: center
       - type: largetext
-        align: left
+        align: center
         string: "# Objective of a Future Squad Lead"
       - type: largetext
-        align: right
+        align: center
         string: "# Partner with coaches to guide, empower and drive outcomes for our
           client experience"
       - type: bodytext
