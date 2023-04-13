@@ -12,13 +12,14 @@ contents:
           coaching is being delivered to every client by empowering and guiding
           coaches through our service expectations and best practices."
         align: center
+  - type: section
+    string: Objective of a Future Squad Lead
+    align: left
+    sectioncontent:
       - type: largetext
-        align: center
-        string: "# Objective of a Future Squad Lead"
-      - type: largetext
-        align: center
         string: "# Partner with coaches to guide, empower and drive outcomes for our
           client experience"
+        align: center
       - type: bodytext
         string: A squad lead must provide philosophical and strategic leadership for
           each coach to successfully meet their objectives as a Future coach.
@@ -26,11 +27,24 @@ contents:
           coach outputs as a means of understanding & improving the quality of
           coach inputs.
         align: center
+  - type: section
+    align: left
+    sectioncontent:
       - type: largetext
         string: "# What is a coach and squad lead held accountable for to ensure
           objectives are met?"
-        align: left
-      - type: bodytext
-        align: right
+        align: center
+      - type: largetext
         string: "# Client Onboarding - Building Trust"
+        align: center
+      - type: bodytext
+        string: Welcome new clients to Future with a high touch onboarding experience to
+          build trust & rapport.
+        align: center
+      - type: bodytext
+        string: |-
+          * Weighted Activation Rate 
+          * Audit of Onboarding touchpoint execution
+        align: center
+    string: Accountability
 ---
