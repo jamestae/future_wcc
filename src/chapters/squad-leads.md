@@ -26,4 +26,11 @@ contents:
           coach outputs as a means of understanding & improving the quality of
           coach inputs.
         align: center
+      - type: largetext
+        string: "# What is a coach and squad lead held accountable for to ensure
+          objectives are met?"
+        align: left
+      - type: bodytext
+        align: right
+        string: "# Client Onboarding - Building Trust"
 ---
