@@ -23,7 +23,7 @@ contents:
           and well-being.*
         align: center
   - type: section
-    string: "Our Mission"
+    string: Our Mission
     align: left
     sectioncontent:
       - type: largetext
@@ -69,11 +69,13 @@ contents:
           tools to enhance the experience at *every stage.*
         align: center
       - type: bodytext
-        string:
+        string: >-
           The Future Coach
-          
-          1. Understands that the best workout for a client is the one they will
-          do
+
+
+
+
+          1. Understands that the best workout for a client is the one they will do
 
           2. Consistently demonstrates remarkable value to each client, at scale 
 
