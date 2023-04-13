@@ -5,11 +5,10 @@ order: 2
 image: /assets/images/greenheader.jpg
 contents:
   - type: section
-    string: |-
-      Section 1
-
-      *This is a test*
     sectioncontent:
       - type: largetext
-        string: "# This is a test"
+        string: "# World Class Coaching is consistently delivering our service through
+          best practices to create personalized experiences that make each
+          client feel valued, taken care of and successful along their journey."
+    string: Overview
 ---
