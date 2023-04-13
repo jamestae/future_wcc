@@ -72,12 +72,12 @@ ul, ol {
     font-family: MessinaSans;
     font-weight: 400;
     letter-spacing: -.04em;
-    margin: 0 0 0 2rem;
+    margin: 3rem 0 0 2rem;
     padding: 0;
 }
 
 li {
-    padding-left: 1rem;
+    padding-left: 3rem;
     margin-bottom: 3rem;
 }
 
