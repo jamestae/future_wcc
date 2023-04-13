@@ -12,15 +12,16 @@ contents:
           client feel valued, taken care of and successful along their journey."
         align: center
       - type: bodytext
-        string: "Coach Objective:"
+        string: |-
+          Coach Objective: \
+          *Create a partnership, commit to progress.*
         align: left
       - type: bodytext
         align: center
-        string: "Create a partnership, commit to progress. Become an indispensable
-          partner on your client’s journey by creating a personalized
-          environment for each client to succeed, one that they can’t find
-          anywhere else and one they can’t accomplish on their own. Deliver on
-          and outside our playbook to:"
+        string: "Become an indispensable partner on your client’s journey by creating a
+          personalized environment for each client to succeed, one that they
+          can’t find anywhere else and one they can’t accomplish on their own.
+          Deliver on and outside our playbook to:"
     string: Overview
     align: left
 ---
