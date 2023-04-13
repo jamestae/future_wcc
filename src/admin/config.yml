@@ -23,9 +23,9 @@ collections:
             fields:
               - { label: "Section Title", name: "string", widget: "markdown" }
               - label: "Align Content"
-                        name: "align"
-                        widget: "select"
-                        options: ["left", "center", "right"]
+                name: "align"
+                widget: "select"
+                options: ["left", "center", "right"]
               - label: "Section Content"
                 name: "sectioncontent"
                 widget: "list"
