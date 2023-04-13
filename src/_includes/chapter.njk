@@ -18,7 +18,7 @@ layout: 'base.njk'
                 {% elif item.align == "left" %}
                 <div class="start1 end3 sectiontitle">{{ item.string | markdown | safe }}</div>
                 {% elif item.align == "right" %}
-                <div class="start10 end13 sectiontitle">{{ item.string | markdown | safe }}</div>
+                <div class="start7 end10 sectiontitle">{{ item.string | markdown | safe }}</div>
                 {% endif %}
                 {% for subitem in item.sectioncontent %}
                     {% if subitem.type == "largetext" %}
@@ -29,8 +29,8 @@ layout: 'base.njk'
                         {% elif subitem.align == "right" %}
                         <div class="largeText start10 end13">{{ subitem.string | markdown | safe }}</div>
                         {% endif %}
-                    {% elif subitem.type == "video" %}
-<iframe width="560" height="315" src="https://www.youtube.com/embed/{{ subitem.string }}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>                        {% if subitem.align == "center" %}
+                    {% elif subitem.type == "bodytext" %}
+                        {% if subitem.align == "center" %}
                         <div class="start5 end9 bodytext">{{ subitem.string | markdown | safe }}</div>
                         {% elif subitem.align == "left" %}
                         <div class="start1 end5 bodytext">{{ subitem.string | markdown | safe }}</div>

@@ -24,6 +24,7 @@
     "markdown-it": "^13.0.1"
   },
   "dependencies": {
-    "eleventy-plugin-embed-everything": "^1.15.1"
+    "eleventy-plugin-embed-everything": "^1.15.1",
+    "fullpage.js": "^4.0.19"
   }
 }

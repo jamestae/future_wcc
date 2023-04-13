@@ -22,54 +22,56 @@ contents:
           and support they need to *make lasting improvements to their health
           and well-being.*
         align: center
-  - type: fbimage
-    image: /assets/images/4N3A5570.jpg
   - type: section
-    string: "#  Our Mission"
-    align: right
+    string: "Our Mission"
+    align: left
     sectioncontent:
       - type: largetext
         string: "# To help people reach their potential by delivering the *world’s best
           coaching experience at scale.*"
-        align: left
+        align: center
       - type: video
         string: P2RqCvImrLg
       - type: inlineimage
         image: /assets/images/bg5.jpg
-        align: left
+        align: center
       - type: bodytext
         string: By leading with *accountability*, prioritizing *flexibility,* and owning
           the research and planning required to design effective and achievable
           workout routines, we can partner with anyone to remove barriers, build
           sustainable habits, and achieve life-changing results.
-        align: right
+        align: center
   - type: section
     string: Our Promise
-    align: right
+    align: left
     sectioncontent:
       - type: largetext
         string: "# *A coach* that ensures you have the *accountability, partnership, and
           support* you need to unlock the life-changing benefits of personalized
           programming."
+        align: center
       - type: bodytext
         string: The Future Coach is dedicated to remaining *in sync* with each client;
           they are *proactive, resourceful, and seek feedback* to ensure that
           each client always has what they need to achieve success.
-        align: left
+        align: center
   - type: section
     string: Our Superpower
+    align: left
     sectioncontent:
       - type: largetext
         string: "# The Future Coach is a *master of their craft.*"
-      - type: smalltext
+        align: center
+      - type: bodytext
         string: They are an *expert programmer, a dedicated and empathetic partner,* and
           they actively go above and beyond to deliver value. For each client,
           *they build a personalized path* that incorporates Future’s innovative
           tools to enhance the experience at *every stage.*
-      - type: largetext
-        string: "# The Future Coach"
-      - type: smalltext
-        string: >-
+        align: center
+      - type: bodytext
+        string:
+          The Future Coach
+          
           1. Understands that the best workout for a client is the one they will
           do
 
@@ -84,4 +86,5 @@ contents:
           6. Is dedicated to their own learning & development 
 
           7. Innovates and refuses to be blocked
+        align: center
 ---
