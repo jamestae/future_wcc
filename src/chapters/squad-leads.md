@@ -46,5 +46,32 @@ contents:
           * Weighted Activation Rate 
           * Audit of Onboarding touchpoint execution
         align: center
+      - type: largetext
+        string: "# Client’s First Month - Securing Trust"
+        align: center
+      - type: bodytext
+        string: Provide a highly-personalized training plan and unparalleled
+          accountability for each member.
+        align: center
+      - type: bodytext
+        string: |-
+          * Weighted 1st Workout to Full Payer Conversion
+          * Audit of First Month touchpoint execution
+        align: center
+      - type: largetext
+        string: "# Beyond First Month - Maintaining Trust"
+        align: center
+      - type: bodytext
+        string: Commit to progress through partnership by keeping your client feeling
+          seen, successful and in control.
+        align: center
+      - type: bodytext
+        string: |-
+          * Always incorporate client feedback & keep it fresh when possible
+          * Surprise and delight your by celebrating key moments
+
+            * \[Retention]
+            * Audit of Journey touchpoint execution
+        align: center
     string: Accountability
 ---
