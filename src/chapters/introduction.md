@@ -72,9 +72,6 @@ contents:
         string: >-
           The Future Coach
 
-
-
-
           1. Understands that the best workout for a client is the one they will do
 
           2. Consistently demonstrates remarkable value to each client, at scale 
