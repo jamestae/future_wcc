@@ -19,4 +19,11 @@ contents:
         align: right
         string: "# Partner with coaches to guide, empower and drive outcomes for our
           client experience"
+      - type: bodytext
+        string: A squad lead must provide philosophical and strategic leadership for
+          each coach to successfully meet their objectives as a Future coach.
+          They must drive successful business outcomes by proactively monitoring
+          coach outputs as a means of understanding & improving the quality of
+          coach inputs.
+        align: center
 ---
