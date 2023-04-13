@@ -1,7 +1,7 @@
 ---
 title: Squad Leads
 date: 2023-04-13T20:39:10.370Z
-image: /assets/images/bg3.jpg
+image: /assets/images/mymind-whj5l9kgtl4-unsplash.jpg
 contents:
   - type: section
     align: left
@@ -14,9 +14,9 @@ contents:
         align: center
       - type: largetext
         align: left
-        string: Objective of a Future Squad Lead
-      - type: bodytext
-        string: Partner with coaches to guide, empower and drive outcomes for our client
-          experience
-        align: center
+        string: "# Objective of a Future Squad Lead"
+      - type: largetext
+        align: right
+        string: "# Partner with coaches to guide, empower and drive outcomes for our
+          client experience"
 ---
