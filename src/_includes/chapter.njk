@@ -27,7 +27,7 @@ layout: 'base.njk'
                         {% elif subitem.align == "left" %}
                         <div class="largeText start1 end7 noindent">{{ subitem.string | markdown | safe }}</div>
                         {% elif subitem.align == "right" %}
-                        <div class="largeText start10 end13">{{ subitem.string | markdown | safe }}</div>
+                        <div class="largeText start7 end13">{{ subitem.string | markdown | safe }}</div>
                         {% endif %}
                     {% elif subitem.type == "bodytext" %}
                         {% if subitem.align == "center" %}
