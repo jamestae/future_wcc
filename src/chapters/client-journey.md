@@ -11,6 +11,9 @@ contents:
           best practices to create personalized experiences that make each
           client feel valued, taken care of and successful along their journey."
         align: center
+      - type: inlineimage
+        image: /assets/images/greenheader.jpg
+        align: center
     string: Overview
     align: left
   - type: section
@@ -25,30 +28,50 @@ contents:
           can’t find anywhere else and one they can’t accomplish on their own.
           Deliver on and outside our playbook to:"
         align: center
+      - type: largetext
+        string: "# Build a safe and effective training plan with the help of your
+          client’s feedback to ensure every client feels in control."
+        align: center
       - type: bodytext
         string: >-
-          * Build a safe and effective training plan with the help of your
-          client’s feedback to ensure every client feels in control.
+          * Use your expertise to ensure your client knows the why behind the
+          what of their individualized program
 
-            * Use your expertise to ensure your client knows the why behind the what of their individualized program
-            * Actively invite and regularly seek feedback to stay in sync and exceed expectations to ensure your client feels taken care of
-            * Each detail matters: Remain proactive and adaptable to your clients needs and refuse to be blocked by client circumstances
-          * Lead with accountability and communicate with empathy to ensure every client feels seen.
+          * Actively invite and regularly seek feedback to stay in sync and exceed expectations to ensure your client feels taken care of
 
-            * Keep your client first: keep track of small details to understand what motivates each client to build a strong relationship
-            * Use your intuition: This goes beyond our playbook. Consistently demonstrate remarkable value through active listening responding with a path forward for your client.
-            * Genuinely connect with your clients by remaining authentic as you become a trusted partner. 
-          * Evaluate progress and constantly adapt to ensure every client feels successful.
+          * Each detail matters: Remain proactive and adaptable to your clients needs and refuse to be blocked by client circumstances
+        align: center
+      - type: largetext
+        string: "# Lead with accountability and communicate with empathy to ensure every
+          client feels seen."
+        align: center
+      - type: bodytext
+        string: >-
+          * Keep your client first: keep track of small details to understand
+          what motivates each client to build a strong relationship
 
-            * Build a path to success with clear and trackable goals in mind and communicate progress every step of the way
-            * Intimately understand each client’s definition of success to fuel their journey
-            * Understand that the best workout for a client is one that they will do
+          * Use your intuition: This goes beyond our playbook. Consistently demonstrate remarkable value through active listening responding with a path forward for your client.
+
+          * Genuinely connect with your clients by remaining authentic as you become a trusted partner.
+        align: center
+      - type: largetext
+        string: "# Evaluate progress and constantly adapt to ensure every client feels
+          successful."
+        align: center
+      - type: bodytext
+        string: >-
+          * Build a path to success with clear and trackable goals in mind and
+          communicate progress every step of the way
+
+          * Intimately understand each client’s definition of success to fuel their journey
+
+          * Understand that the best workout for a client is one that they will do
         align: center
     align: left
   - type: fbimage
-    image: /assets/images/header1.jpg
+    image: /assets/images/greenheader.jpg
   - type: section
-    string: Service & Excellence
+    string: Service & Coaching Excellence
     sectioncontent:
       - type: bodytext
         string: This is the crux of where we deliver our promise. Our experience design
