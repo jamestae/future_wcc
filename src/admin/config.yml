@@ -22,6 +22,10 @@ collections:
             widget: "object"
             fields:
               - { label: "Section Title", name: "string", widget: "markdown" }
+              - label: "Align Content"
+                        name: "align"
+                        widget: "select"
+                        options: ["left", "center", "right"]
               - label: "Section Content"
                 name: "sectioncontent"
                 widget: "list"
@@ -31,6 +35,10 @@ collections:
                     widget: "object"
                     fields:
                       - { label: "Enter Text", name: "string", widget: "markdown"}
+                      - label: "Align Content"
+                        name: "align"
+                        widget: "select"
+                        options: ["left", "center", "right"]
                   - label: "Body Text"
                     name: "bodytext"
                     widget: "object"
